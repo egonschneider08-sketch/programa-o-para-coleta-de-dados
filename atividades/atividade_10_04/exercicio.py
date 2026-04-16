@@ -19,6 +19,7 @@ for i in range(20):
     temperaturas.append(temp)
 
 print("Leituras de temperatura dos motores WEG:")
+print()
 for i in range(len(temperaturas)):
     temp = temperaturas[i]
     print(f"  Leitura {i+1:02d}: {temp:.1f}°C", end="")
@@ -43,6 +44,7 @@ for i in range(20):
     velocidades.append(vel)
 
 print("Leituras de velocidade da esteira transportadora:")
+print()
 for i in range(len(velocidades)):
     vel = velocidades[i]
     print(f"  Leitura {i+1:02d}: {vel:.2f} m/s", end="")
@@ -70,6 +72,7 @@ for i in range(20):
 
 print(f"Limite definido: {LIMITE_CONSUMO} kWh")
 print("Leituras de consumo energético:")
+print()
 for i in range(len(consumos)):
     c = consumos[i]
     print(f"  Leitura {i+1:02d}: {c:.1f} kWh", end="")
@@ -99,6 +102,7 @@ for i in range(20):
 
 print(f"Faixa ideal de pH: {pH_MIN} a {pH_MAX}")
 print("Leituras de pH no tratamento de superfícies:")
+print()
 for i in range(len(valores_ph)):
     ph = valores_ph[i]
     print(f"  Leitura {i+1:02d}: pH {ph:.2f}", end="")
@@ -130,6 +134,7 @@ while i < 20:
 alertas = 0
 print(f"Limite máximo da câmara fria: {LIMITE_CAMARA}°C")
 print("Leituras de temperatura da câmara:")
+print()
 for i in range(len(leituras_camara)):
     temp = leituras_camara[i]
     print(f"  Leitura {i+1:02d}: {temp:.1f}°C", end="")
@@ -147,6 +152,7 @@ print()
 # ==============================================================================
 # QUESTÃO 6 – Nível de Tanque
 # ==============================================================================
+print()
 print("=" * 60)
 print("QUESTÃO 6 – Nível de Tanque")
 print("=" * 60)
@@ -159,6 +165,7 @@ for i in range(20):
 criticos_baixo = 0
 criticos_alto = 0
 print("Leituras de nível dos tanques industriais:")
+print()
 for i in range(len(niveis)):
     n = niveis[i]
     print(f"  Tanque {i+1:02d}: {n:.1f}%", end="")
@@ -185,6 +192,8 @@ print("=" * 60)
 print("QUESTÃO 7 – Vibração de Máquina")
 print("=" * 60)
 
+print()
+
 LIMITE_VIBRACAO = 5.0  # mm/s
 
 def verificar_vibracao(valor):
@@ -206,6 +215,7 @@ vibracoes = gerar_dados_vibracao(20)
 
 print(f"Limite de vibração: {LIMITE_VIBRACAO} mm/s")
 print("Leituras dos sensores de vibração:")
+print()
 for i in range(len(vibracoes)):
     v = vibracoes[i]
     status = verificar_vibracao(v)
@@ -241,6 +251,7 @@ pressoes = [random.uniform(70, 280) for _ in range(20)]
 
 print(f"Faixa segura de pressão: {PRESSAO_MIN} a {PRESSAO_MAX} bar")
 print("Leituras do sistema hidráulico:")
+print()
 for i, p in enumerate(pressoes):
     status, mensagem = analisar_pressao(p, PRESSAO_MIN, PRESSAO_MAX)
     icone = "✅" if status == "NORMAL" else "⚠️ "
@@ -305,6 +316,7 @@ def logica_clp(temperatura):
 
 print("Simulador de lógica CLP - WEG")
 print("Testando com 5 valores de temperatura:")
+print()
 
 valores_teste = [55.0, 72.5, 81.3, 68.0, 90.0]
 for temp in valores_teste:
