@@ -31,7 +31,8 @@ D --> E[Dashboard]
 
 ## 📊 Dashboard (Exemplo)
 
-https://www.intergate.net.br/blog/sematex-e-industria-4-0-lancamento-na-febratex-2018/
+<img width="1021" height="575" alt="image" src="https://github.com/user-attachments/assets/28563ebd-da56-4ed3-83c2-788582e93052" />
+
 
 ---
 
