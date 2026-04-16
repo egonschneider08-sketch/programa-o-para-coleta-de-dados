@@ -92,10 +92,7 @@ print(valor)
 
 * [x] Simulação de sensores
 * [x] Dashboard web
-* [ ] Integração com banco de dados
-* [ ] API REST
-* [ ] Deploy em nuvem
-
+* [ ] 
 ---
 
 ## 👨‍💻 Autor
