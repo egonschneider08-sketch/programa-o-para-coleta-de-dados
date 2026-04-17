@@ -50,9 +50,7 @@ D --> E[Dashboard]
 
 * Python 🐍
 * JavaScript 🌐
-* Chart.js 📊
 * MQTT (simulado)
-* Node.js (opcional)
 
 ---
 
@@ -105,8 +103,3 @@ Projeto desenvolvido para estudos em automação industrial e programação.
 
 Sinta-se livre para contribuir com melhorias!
 
----
-
-## 📜 Licença
-
-MIT License
